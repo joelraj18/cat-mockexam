@@ -1,75 +1,62 @@
-# Rhythm.AI | Neuro-Cognitive Productivity Engine
+# 🎓 cat-mockexam: CAT Exam Interface Clone
 
-![Version](https://img.shields.io/badge/version-2.0.0-emerald)
-![Tech](https://img.shields.io/badge/stack-React%20|%20Tailwind%20|%20Recharts-blue)
-![Focus](https://img.shields.io/badge/science-Circadian%20Biology-purple)
+An attempt to replicate the user interface and key functionalities of the Common Admission Test (CAT) computer-based examination.
 
-**Rhythm.AI** is a professional-grade productivity tracker that utilizes **Cognitive Load Theory** and **Circadian Rhythms** to predict, track, and optimize your mental performance. unlike standard to-do lists, Rhythm.AI treats your energy as a finite biological resource.
+## ✨ Project Overview
 
----
+This project is a high-fidelity simulation of the Common Admission Test (CAT) examination interface. The goal is to provide test-takers with a realistic environment to practice navigation, time management, and the use of integrated tools (like the on-screen calculator), thereby reducing anxiety on the actual exam day.
 
-## 🧠 The Science Behind The Code
+The application is built using modern web technologies to deliver a fast and responsive user experience that closely mimics the official testing platform.
 
-This application runs on a custom **Neuro-Probabilistic Algorithm** that calculates your "Probability of Success" for future tasks based on three biological factors:
+## 💻 Tech Stack
 
-1.  **Circadian Nadir & Peaks:**
-    * *Morning Cortisol Peak (8 AM - 11 AM):* The algorithm boosts probability scores.
-    * *Post-Prandial Dip (1 PM - 3 PM):* The algorithm applies a statistical penalty to focus scores.
-    * *Melatonin Onset (10 PM+):* Deep work probability decays rapidly.
+This website is a Single Page Application (SPA) built with the following technologies:
 
-2.  **Homeostatic Sleep Pressure:**
-    * The system tracks "Allostatic Load." If you log high-intensity work (`Focus Level 5`) for 2+ hours, the predictive engine enforces a **Refractory Period**, lowering the probability of success for the next hour to prevent burnout.
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend Framework** | React | Used for building the component-based, interactive user interface. |
+| **Markup** | HTML | The fundamental building blocks of the application structure. |
+| **Styling** | CSS / Tailwind CSS | Tailwind CSS is used for rapid, utility-first styling, ensuring a clean and consistent design across all mock screens. |
+| **Package Management** | npm | Used to manage and install project dependencies. |
 
-3.  **Ultradian Rhythms:**
-    * Optimized for 90-minute cycles. The "Neuro Tips" section provides protocols based on Andrew Huberman's research for managing these cycles.
+## 🚀 Key Features
 
----
+The mock interface includes all critical elements found in the real CAT exam:
 
-## ⚡️ Command Line Interface (CLI)
+* **Section Timer:** A strictly enforced countdown for each section.
+* **Question Panel:** A dynamic display of question status (Answered, Not Answered, Marked for Review).
+* **On-Screen Calculator:** A functioning virtual calculator provided for calculations during the exam.
+* **Navigation:** Buttons for **Save & Next**, **Mark for Review**, and **Clear Response**.
+* **Section Management:** Clear display of current and remaining sections (VARC, DILR, QA).
 
-To reduce friction and maintain "Flow State," Rhythm.AI uses a fast-entry command syntax inspired by Vim/Terminal workflows.
-
-**Input Format:**
-`[Start]^[End]%[Activity]%f[1-5]e[1-5]`
-
-### Examples:
-
-| Command | Meaning |
-| :--- | :--- |
-| `6a^7a%Morning Protocol%f5e4` | **6:00 AM - 7:00 AM**: "Morning Protocol" (High Focus, High Energy) |
-| `8.5a^10a%Deep Work%f5e3` | **8:30 AM - 10:00 AM**: "Deep Work" (Auto-logs 1.5 hours) |
-| `2p^4p%Admin Tasks%f2e3` | **2:00 PM - 4:00 PM**: "Admin Tasks" (Low Focus, Moderate Energy) |
-
----
-
-## 📊 Features
-
-* **Neuro-Probability Engine:** Real-time graph overlaying your actual performance vs. your biological predicted limit.
-* **Multi-Hour Range Parsing:** Log huge blocks of time (e.g., "8a^12p") in a single second.
-* **Decimal Time Support:** Precision logging for half-hour blocks (e.g., "6.5a" = 6:30 AM).
-* **Local Persistence:** Data is encrypted via local storage keys (Siloed by User Email).
-* **JSON Data Portability:** Full Export/Import capabilities for backup.
-* **Huberman Protocols:** Built-in library of science-backed protocols for alertness and sleep.
-
----
-
-## 🚀 Getting Started
+## 🔧 Installation and Setup
 
 ### Prerequisites
-* Node.js installed
-* npm (Node Package Manager)
 
-### Installation
+* Node.js (LTS recommended)
+* npm (comes bundled with Node.js)
 
-```bash
-# Clone the repository
-git clone [https://github.com/joelraj18/rhythm-ai-tracker.git](https://github.com/joelraj18/rhythm-ai-tracker.git)
+### Getting Started
 
-# Install dependencies
-npm install
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/joelraj18/cat-mockexam.git](https://github.com/joelraj18/cat-mockexam.git)
+    cd cat-mockexam
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the application in development mode:**
+    ```bash
+    npm start
+    ```
+    The application will open automatically in your browser at `http://localhost:3000`. Changes will hot-reload.
 
-# Install Scientific Visualization Engines
-npm install recharts lucide-react
+## 🤝 Contributing
 
-# Run the Neuro-Engine
-npm start
+Contributions are welcome! If you find a feature that could be more accurately cloned or a bug that needs fixing, please open an issue or submit a pull request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
