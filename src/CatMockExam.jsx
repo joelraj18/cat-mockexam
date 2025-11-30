@@ -233,7 +233,7 @@ const AuthScreen = ({ onLogin }) => {
 
 // --- 4. MAIN APP COMPONENT ---
 
-const RhythmAI = () => {
+const CatMockExam = () => {
   // Auth State
   const [user, setUser] = useState(null);
   
@@ -686,4 +686,4 @@ const RhythmAI = () => {
   );
 };
 
-export default RhythmAI;
+export default CatMockExam;

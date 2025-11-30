@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import RhythmAI from './RhythmAI';
+import CatMockExam from './CatMockExam';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RhythmAI />
+    <CatMockExam />
   </React.StrictMode>
 );
 
