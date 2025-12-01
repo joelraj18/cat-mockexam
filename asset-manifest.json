@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cat-mockexam/static/css/main.d7766803.css",
+    "main.js": "/cat-mockexam/static/js/main.312711d3.js",
+    "static/js/453.56ae9dc9.chunk.js": "/cat-mockexam/static/js/453.56ae9dc9.chunk.js",
+    "index.html": "/cat-mockexam/index.html",
+    "main.d7766803.css.map": "/cat-mockexam/static/css/main.d7766803.css.map",
+    "main.312711d3.js.map": "/cat-mockexam/static/js/main.312711d3.js.map",
+    "453.56ae9dc9.chunk.js.map": "/cat-mockexam/static/js/453.56ae9dc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7766803.css",
+    "static/js/main.312711d3.js"
+  ]
+}
